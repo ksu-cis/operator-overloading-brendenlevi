@@ -19,6 +19,26 @@ namespace VectorMath
             Console.WriteLine($"Should be equal: {one == new Vector3(3, 4, 5)}");
             Console.WriteLine($"Should increment: {one++}");
             Console.WriteLine($"Magnitude: {~one}");
+
+            if (one)
+            {
+                Console.WriteLine($"{one} is truthy");
+            }
+            else
+            {
+                Console.WriteLine($"{one} is falsy");
+
+            }
+
+            if (Vector3.Zero)
+            {
+                Console.WriteLine($"{Vector3.Zero} is truthy");
+            }
+            else
+            {
+                Console.WriteLine($"{Vector3.Zero} is falsy");
+
+            }
         }
     }
 }
